@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: '2.4'
+metadata:
+  name: 'odata1'
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          url: http://sharedehp7.gotdns.com:8000
+          client: "800"
+        app:
+          name: ZODATA1
+          description: test
+          package: ZPS0
+          transport: ""

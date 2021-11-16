@@ -1,0 +1,59 @@
+<mvc:View controllerName="ZODATATEST.odata1.controller.View1" 
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns:core="sap.ui.core"
+ displayBlock="true" 
+xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<MultiInput width="40%" 
+						id="multiInput" 
+						
+						valueHelpOnly = "true"	
+						valueHelpRequest="handleValueHelp">
+							
+						</MultiInput>
+						<Table id="idTable" inset="false" items="{/networkSet}">
+							<!-- <headerToolbar>
+								<OverflowToolbar>
+									<Title text="Products" level="H2" />
+									<ToolbarSpacer></ToolbarSpacer>
+									<Button icon="sap-icon://download" press="onDataExport" />
+								</OverflowToolbar>
+							</headerToolbar> -->
+							<columns>
+								<Column id="productCol" width="12em">
+									<Text text="Network" />
+								</Column>
+								<Column id="supplierCol" minScreenWidth="Tablet" demandPopin="true">
+									<Text text="networktype" />
+								</Column>
+								<Column id="dimensionsCol" minScreenWidth="Tablet" demandPopin="true" hAlign="End">
+									<Text text="text" />
+								</Column>
+								<Column id="weightCol" minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+									<Text text="werks" />
+								</Column>
+
+							</columns>
+							<items>
+								<ColumnListItem vAlign="Middle">
+									<cells>
+
+										<Text text="{Aufnr}" />
+										<Text text="{Auart}" />
+										<Text text="{Ktext}" />
+										<Text text="{Werks}" />
+
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

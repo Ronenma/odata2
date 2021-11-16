@@ -1,0 +1,13 @@
+<c:FragmentDefinition 
+xmlns="sap.ui.comp.valuehelpdialog" 
+xmlns:c="sap.ui.core">
+    <ValueHelpDialog 
+    title="Product" 
+    supportRanges="true"
+    
+    ok=".onValueHelpOkPress" 
+    cancel=".onValueHelpCancelPress" 
+    afterClose=".onValueHelpAfterClose" 
+    key="Aufnr" descriptionKey="ktext">
+</ValueHelpDialog>
+</c:FragmentDefinition>

@@ -1,0 +1,76 @@
+{
+    "networks": {
+        "results": [
+            {
+               
+                "Aufnr": "901960",
+                "Auart": "PS01",
+                "Ktext": "Development industrial area  10/A",
+                "Werks": "1000"
+            },
+            {
+                
+                "Aufnr": "903659",
+                "Auart": "PS01",
+                "Ktext": "Refurbishment project",
+                "Werks": "1000"
+            },
+            {
+              
+                "Aufnr": "906239",
+                "Auart": "PS01",
+                "Ktext": "",
+                "Werks": "1300"
+            },
+            {
+               
+                "Aufnr": "907480",
+                "Auart": "PS01",
+                "Ktext": "Diagrama de Rede 907480",
+                "Werks": "SP00"
+            },
+            {
+              
+                "Aufnr": "907481",
+                "Auart": "PS01",
+                "Ktext": "Elemento PEP P-0002-01-01",
+                "Werks": "SP00"
+            },
+            {
+               
+                "Aufnr": "907482",
+                "Auart": "PS01",
+                "Ktext": "Elemento PEP P-0002-01-02",
+                "Werks": "SP00"
+            },
+            {
+               
+                "Aufnr": "907483",
+                "Auart": "PS01",
+                "Ktext": "Elemento PEP P-0002-01-03",
+                "Werks": "SP00"
+            },
+            {
+                
+                "Aufnr": "907484",
+                "Auart": "PS01",
+                "Ktext": "Elemento PEP P-0002-01-04",
+                "Werks": "SP00"
+            },
+            {
+               
+                "Aufnr": "907485",
+                "Auart": "PS01",
+                "Ktext": "Elemento PEP P-0002-01-05",
+                "Werks": "SP00"
+            },
+            {
+               
+                "Aufnr": "907486",
+                "Auart": "PS01",
+                "Ktext": "Elemento PEP P-0002-01-06",
+                "Werks": "SP00"
+            }
+        ]
+    }
+}
